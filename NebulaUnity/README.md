@@ -14,8 +14,9 @@ This folder contains a Unity project that can be used to build custom UI element
 5. Copy project DLLs into Unity project 
    `dotnet build -target:"CopyAssembliesToUnityProject"` (use `"Build:CopyAssembliesToUnityProject"` to rebuild main project at the same time). It's safe to ignore this error message: ```C:\Users\matts\src\nebula\dep\websocket-sharp\websocket-sharp\websocket-sharp.csproj : error MSB4057: The target "CopyAssembliesToUnityProject" does not exist in the project.```
 6. Make the changes you would like to make. More can be found here on setting up your dev environment
+   https://github.com/kremnev8/DSP-Mods/wiki/Setting-up-development-environment
 7. After that is complete build the asset bundle (Window->DSP Utils->Build Asset Bundles)
-8. Copy the generated asset bundle file named nebulabundle to NebulaWorld\Assets 
+9. Copy the generated asset bundle file named nebulabundle to NebulaWorld\Assets 
    `copy .\NebulaUnity\Assets\StreamingAssets\AssetBundles\nebulabundle .\NebulaWorld\Assets\`
-9. Rebuild the main project to see your changes
-10. Make sure to include changes to .\NebulaWorld\Assets\ in your PR
+10. Rebuild the main project to see your changes
+11. Make sure to include changes to .\NebulaWorld\Assets\ in your PR

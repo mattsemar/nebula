@@ -6,6 +6,7 @@ using NebulaAPI;
 using NebulaModel.Logger;
 using NebulaPatcher.Logger;
 using NebulaPatcher.MonoBehaviours;
+using NebulaWorld;
 using System;
 #if DEBUG
 using System.IO;

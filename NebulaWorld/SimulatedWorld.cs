@@ -32,6 +32,7 @@ namespace NebulaWorld
         private Text pingIndicator;
         private LocalPlayerMovement localPlayerMovement;
         private LocalPlayerAnimation localPlayerAnimation;
+        private ChatManager chatManager;
 
         public Locker GetRemotePlayersModels(out Dictionary<ushort, RemotePlayerModel> remotePlayersModels)
         {
@@ -140,6 +141,7 @@ namespace NebulaWorld
             // Finally we need add the local player components to the player character
             localPlayerMovement = GameMain.mainPlayer.gameObject.AddComponentIfMissing<LocalPlayerMovement>();
             localPlayerAnimation = GameMain.mainPlayer.gameObject.AddComponentIfMissing<LocalPlayerAnimation>();
+            chatManager = GameMain.mainPlayer.gameObject.AddComponentIfMissing<ChatManager>();
         }
 
         public void OnPlayerJoining()
