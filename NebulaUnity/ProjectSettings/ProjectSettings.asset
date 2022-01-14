@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 18
-  productGUID: 28d86abc8a3e96647be6cd5a695c02f5
+  productGUID: bf7f1b32bcd0e794eab028a61a8e7c86
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: NebulaChatUnity
+  productName: NU
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -530,16 +530,7 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  scriptingDefineSymbols:
-    1: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    7: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    13: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    19: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    21: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    25: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    26: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    27: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
-    28: thunderkit;dspgame;xiaoye97-bepinex;xiaoye97-ldbtool;commonapi-dspmodsave;commonapi-commonapi;commonapi-dspeditorkit
+  scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
