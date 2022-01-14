@@ -36,7 +36,7 @@ namespace NebulaWorld.MonoBehaviours.Local
                 Log.Info("Chat window keybind triggered");
                 _chatWindow.Toggle();
             }
-
+            
             ChatWindow.QueuedMessage newMessage = _chatWindow.GetQueuedMessage();
             if (Multiplayer.IsActive && newMessage != null)
             {
@@ -92,15 +92,13 @@ namespace NebulaWorld.MonoBehaviours.Local
             string locationStr = GameMain.localPlanet == null ? "In Space" : GameMain.localPlanet.displayName;
             Multiplayer.Session.Network.SendPacket(new NewChatMessagePacket(ChatMessageType.SystemMessage,
                 $"connected ({locationStr})", DateTime.Now, GetUserName()));
-            // _chatWindow.SendMessageToChat($"[{DateTime.Now:}]connected ({locationStr}) ");
             _sentLocation = true;
         }
 
         // Queue a message to appear in chat window
-        public void QueueChatMessage(string text, ChatMessageType messageType)
+        public void AddChatMessage(string text, ChatMessageType messageType)
         {
             _chatWindow.SendMessageToChat(text, (int)messageType);
-            // _queuedMessages.Enqueue(new ChatWindow.QueuedMessage { MessageText = text, ChatMessageType = (int)messageType });
         }
     }
 }

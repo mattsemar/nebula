@@ -9,4 +9,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="chatGameAsm, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\Libs\chatGameAsm.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
